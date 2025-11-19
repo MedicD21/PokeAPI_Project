@@ -3,7 +3,7 @@ from tqdm import tqdm
 from pathlib import Path
 from .client import get
 
-#creates path to output file
+#creates path to output file for pokemon names
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data" / "raw"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
