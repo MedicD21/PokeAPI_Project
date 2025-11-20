@@ -17,12 +17,13 @@ OITEMS_END = 10002
 def grab_item():
     
     exist_data = []
-    # Convert existing list → dict for fast lookup / update
-    existing_dict = {item["id"]: item for item in exist_data}
 
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, 'r') as file:
             exist_data = json.load(file)
+    
+    # Convert existing list → dict for fast lookup / update
+    existing_dict = {item["id"]: item for item in exist_data}
     
     exist_ids = { entry["id"] for entry in exist_data}
     
