@@ -3,13 +3,14 @@ import subprocess
 
 # Map of shortcuts → module paths
 SCRIPTS = {
-    "items": "src.api.poke_items",
-    "abilities": "src.api.poke_abilities",
-    "names": "src.api.poke_names",
-    "moves": "src.api.poke_moves",
-    "machines": "src.api.poke_machines",
-    "types": "src.api.poke_types",
-    "items_categories": "src.api.poke_item_categories",
+    "items": "src.api.items.poke_items",
+    "abilities": "src.api.abilities.poke_abilities",
+    "names": "src.api.pokemon.poke_names",
+    "moves": "src.api.moves.poke_moves",
+    "machines": "src.api.items.poke_machines",
+    "types": "src.api._types.poke_types",
+    "item_categories": "src.api.items.poke_item_categories",
+    "item_attributes": "src.api.items.poke_item_attributes"
 }
 
 def main():

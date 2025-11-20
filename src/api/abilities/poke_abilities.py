@@ -1,9 +1,9 @@
 import json
 from tqdm import tqdm
 from pathlib import Path
-from .client import get
+from ..client import get
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 DATA_DIR = ROOT / "data" / "raw"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_FILE = DATA_DIR / "pokemon_abilities.json"

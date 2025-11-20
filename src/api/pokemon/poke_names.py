@@ -1,10 +1,10 @@
 import json
 from tqdm import tqdm
 from pathlib import Path
-from .client import get
+from ..client import get
 
-#creates path to output file
-ROOT = Path(__file__).resolve().parents[2]
+#creates path to output file for pokemon names
+ROOT = Path(__file__).resolve().parents[3]
 DATA_DIR = ROOT / "data" / "raw"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_FILE = DATA_DIR / "pokemon_names.json"
@@ -23,8 +23,6 @@ def grab_names():
     
     #creates set of existing ids to avoid duplicates        
     existing_ids = { entry["id"] for entry in existing_data} 
-    ex_name = { entry["name"] for entry in existing_data}
-    ex_order = { entry["order"] for entry in existing_data}
     
     # Fetching function with progress bar
     def fetch_range(start, end, tag="Fetching"):
@@ -40,13 +38,11 @@ def grab_names():
                 continue
 
             name = data["name"]
-            order = data["order"]
             tqdm.write(F"{name} caught!")
 
             pkmn_list.append({
                 "id": pokemon_id,
                 "name": name,
-                "order" : order
             })
 
     # Fetch base Pokémon
