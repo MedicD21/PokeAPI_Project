@@ -1,36 +1,85 @@
 pokemon_pokedex/
 │
 ├── data/
-│   ├── raw/               # JSON files exactly as returned by PokeAPI
-│   ├── processed/         # your cleaned/combined JSON
-│   └── images/            # sprites you choose to download
+│   ├── raw/                    # All JSON files pulled straight from PokeAPI
+│   ├── processed/              # Cleaned, merged, normalized JSON
+│   └── images/                 # Downloaded sprites, artwork, etc.
 │
 ├── src/
-│   ├── api/               # code that talks to pokeapi
-│   │   ├── client.py      # handles GET requests, caching, rate limits
-│   │   ├── pokemon.py     # fetches Pokémon
-│   │   ├── abilities.py   # fetches abilities
-│   │   ├── moves.py       # fetches moves
-│   │   ├── items.py       # fetches items
-│   │   └── types.py
+│   ├── api/                    # All code that fetches FROM PokeAPI
+│   │   ├── __init__.py
+│   │   ├── client.py           # Core GET logic, retries, rate limits
 │   │
-│   ├── processing/        # code that cleans and restructures data
+│   │   ├── pokemon/            # Pokémon-specific endpoints
+│   │   │   ├── __init__.py
+│   │   │   ├── poke_names.py
+│   │   │   ├── pokemon_species.py
+│   │   │   ├── pokemon_full.py
+│   │   │   ├── pokemon_colors.py
+│   │   │   ├── pokemon_habitats.py
+│   │   │   └── pokemon_shapes.py
+│   │
+│   │   ├── abilities/
+│   │   │   ├── __init__.py
+│   │   │   └── poke_abilities.py
+│   │
+│   │   ├── items/              # All item-related scripts
+│   │   │   ├── __init__.py
+│   │   │   ├── poke_items.py
+│   │   │   ├── item_categories.py
+│   │   │   ├── item_attributes.py
+│   │   │   ├── item_fling_effects.py
+│   │   │   └── item_pockets.py
+│   │
+│   │   ├── moves/              # All move-related scripts
+│   │   │   ├── __init__.py
+│   │   │   ├── moves.py
+│   │   │   ├── move_damage_classes.py
+│   │   │   ├── move_categories.py
+│   │   │   ├── move_ailments.py
+│   │   │   ├── move_targets.py
+│   │   │   └── move_learn_methods.py
+│   │
+│   │   ├── types/
+│   │   │   ├── __init__.py
+│   │   │   └── types.py
+│   │
+│   │   ├── evolution/
+│   │   │   ├── __init__.py
+│   │   │   └── evolution_chains.py
+│   │
+│   │   ├── biology/
+│   │   │   ├── __init__.py
+│   │   │   ├── egg_groups.py
+│   │   │   ├── growth_rates.py
+│   │   │   └── pokemon_genders.py
+│   │
+│   │   └── versions/
+│   │       ├── __init__.py
+│   │       ├── regions.py
+│   │       └── version_groups.py
+│   │
+│   ├── processing/             # Clean + merge PokeAPI data into final dex
+│   │   ├── __init__.py
 │   │   ├── normalize_pokemon.py
 │   │   └── combine_dex.py
 │   │
-│   ├── utils/             # helpers
+│   ├── utils/                  # Shared helper scripts
+│   │   ├── __init__.py
 │   │   ├── file_io.py
 │   │   ├── logging.py
 │   │   └── exceptions.py
 │   │
-│   └── main.py            # entry point that drives the entire pokedex build
+│   └── main.py                 # Main entry: runs all collectors & processors
 │
 ├── docs/
-│   ├── endpoints.md       # list of PokeAPI endpoints and examples
-│   ├── schema.md          # how your final pokedex JSON is structured
-│   └── notes.md           # your personal notes/learned concepts
+│   ├── endpoints.md            # All PokeAPI endpoints + response examples
+│   ├── schema.md               # Structure of your final pokedex JSON
+│   └── notes.md                # Learning notes + plans + scratchpad
 │
-├── venv/ (optional)
+├── tests/                      # Optional: unit tests as project grows
+│
+├── venv/                       # optional python environment
 │
 ├── requirements.txt
 └── README.md
