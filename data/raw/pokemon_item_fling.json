@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "name": "badly-poison",
+        "display_name": "Badly Poison",
+        "items": [
+            "toxic-orb"
+        ],
+        "effect_entry": "Badly poisons the target."
+    },
+    {
+        "id": 2,
+        "name": "burn",
+        "display_name": "Burn",
+        "items": [
+            "flame-orb"
+        ],
+        "effect_entry": "Burns the target."
+    },
+    {
+        "id": 3,
+        "name": "berry-effect",
+        "display_name": "Berry Effect",
+        "items": [
+            "cheri-berry",
+            "chesto-berry",
+            "pecha-berry",
+            "rawst-berry",
+            "aspear-berry",
+            "leppa-berry",
+            "oran-berry",
+            "persim-berry",
+            "lum-berry",
+            "sitrus-berry",
+            "figy-berry",
+            "wiki-berry",
+            "mago-berry",
+            "aguav-berry",
+            "iapapa-berry",
+            "liechi-berry",
+            "ganlon-berry",
+            "salac-berry",
+            "petaya-berry",
+            "apicot-berry",
+            "lansat-berry",
+            "starf-berry",
+            "micle-berry",
+            "kee-berry",
+            "maranga-berry"
+        ],
+        "effect_entry": "Immediately activates the berry\u2019s effect on the target."
+    },
+    {
+        "id": 4,
+        "name": "herb-effect",
+        "display_name": "Herb Effect",
+        "items": [
+            "white-herb",
+            "mental-herb"
+        ],
+        "effect_entry": "Immediately activates the herb\u2019s effect on the target."
+    },
+    {
+        "id": 5,
+        "name": "paralyze",
+        "display_name": "Paralyze",
+        "items": [
+            "light-ball"
+        ],
+        "effect_entry": "Paralyzes the target."
+    },
+    {
+        "id": 6,
+        "name": "poison",
+        "display_name": "Poison",
+        "items": [
+            "poison-barb"
+        ],
+        "effect_entry": "Poisons the target."
+    },
+    {
+        "id": 7,
+        "name": "flinch",
+        "display_name": "Flinch",
+        "items": [
+            "kings-rock",
+            "razor-fang"
+        ],
+        "effect_entry": "Target will flinch if it has not yet gone this turn."
+    }
+]
