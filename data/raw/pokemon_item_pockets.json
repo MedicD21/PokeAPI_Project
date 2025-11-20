@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "misc",
+        "display_name": "Misc",
+        "category": [
+            "collectibles",
+            "evolution",
+            "spelunking",
+            "held-items",
+            "choice",
+            "effort-training",
+            "bad-held-items",
+            "training",
+            "plates",
+            "species-specific",
+            "type-enhancement",
+            "loot",
+            "mulch",
+            "dex-completion",
+            "scarves",
+            "jewels",
+            "mega-stones",
+            "memories",
+            "species-candies",
+            "dynamax-crystals",
+            "curry-ingredients",
+            "tera-shard",
+            "sandwich-ingredients",
+            "tm-materials",
+            "picnic"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "medicine",
+        "display_name": "Medicine",
+        "category": [
+            "vitamins",
+            "healing",
+            "pp-recovery",
+            "revival",
+            "status-cures",
+            "nature-mints"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "pokeballs",
+        "display_name": "Pokeballs",
+        "category": [
+            "special-balls",
+            "standard-balls",
+            "apricorn-balls"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "machines",
+        "display_name": "Machines",
+        "category": [
+            "all-machines"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "berries",
+        "display_name": "Berries",
+        "category": [
+            "effort-drop",
+            "medicine",
+            "other",
+            "in-a-pinch",
+            "picky-healing",
+            "type-protection",
+            "baking-only",
+            "catching-bonus"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "mail",
+        "display_name": "Mail",
+        "category": [
+            "all-mail"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "battle",
+        "display_name": "Battle",
+        "category": [
+            "stat-boosts",
+            "flutes",
+            "miracle-shooter"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "key",
+        "display_name": "Key",
+        "category": [
+            "event-items",
+            "gameplay",
+            "plot-advancement",
+            "unused",
+            "apricorn-box",
+            "data-cards",
+            "z-crystals"
+        ]
+    }
+]
