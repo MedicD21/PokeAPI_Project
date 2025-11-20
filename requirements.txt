@@ -2,3 +2,5 @@ requests
 pathlib
 tqdm
 pokebase
+sys
+subprocess
