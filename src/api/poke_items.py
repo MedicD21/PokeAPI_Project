@@ -16,24 +16,22 @@ OITEMS_END = 10002
 
 def grab_item():
     
-    exist_data = []
-
+    # load existing file
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, 'r') as file:
             exist_data = json.load(file)
-    
-    # Convert existing list → dict for fast lookup / update
+    else:
+        exist_data = []
+
+    # convert to dict for upsert behavior
     existing_dict = {item["id"]: item for item in exist_data}
-    
-    exist_ids = { entry["id"] for entry in exist_data}
-    
+
+    # fast lookup for skip logic
+    exist_ids = set(existing_dict.keys())
     
     def fetch_items(start, end, tag="Fetching"):
         for item_id in tqdm(range(start, end + 1), desc=tag):
             
-            if item_id in exist_ids:
-                tqdm.write(f" Item {item_id} already exists. Skipping...")
-                continue
             url = BASE_URL + str(item_id)
             data = get(url)
             
