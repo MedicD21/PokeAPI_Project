@@ -2,9 +2,9 @@
 
 Item-Related
 
-item_fling_effects.py
+item_fling_effects.py**\*\***
 
-item_pockets.py
+item_pockets.py**\*\***
 
 ## \***\* Moves \*\***
 
