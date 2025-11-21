@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "attack",
+        "display_name": "Attack"
+    },
+    {
+        "id": 2,
+        "name": "defense",
+        "display_name": "Defense"
+    },
+    {
+        "id": 3,
+        "name": "support",
+        "display_name": "Support"
+    }
+]

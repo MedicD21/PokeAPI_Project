@@ -1,0 +1,418 @@
+[
+    {
+        "id": 1,
+        "name": "paralysis",
+        "display_name": "Paralysis",
+        "moves": [
+            "thunder-punch",
+            "body-slam",
+            "stun-spore",
+            "thunder-shock",
+            "thunderbolt",
+            "thunder-wave",
+            "thunder",
+            "lick",
+            "glare",
+            "zap-cannon",
+            "spark",
+            "dragon-breath",
+            "bounce",
+            "volt-tackle",
+            "force-palm",
+            "thunder-fang",
+            "discharge",
+            "bolt-strike",
+            "freeze-shock",
+            "nuzzle",
+            "stoked-sparksurfer",
+            "splishy-splash",
+            "buzzy-buzz"
+        ],
+        "display_move": [
+            "Thunder Punch",
+            "Body Slam",
+            "Stun Spore",
+            "Thunder Shock",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Thunder",
+            "Lick",
+            "Glare",
+            "Zap Cannon",
+            "Spark",
+            "Dragon Breath",
+            "Bounce",
+            "Volt Tackle",
+            "Force Palm",
+            "Thunder Fang",
+            "Discharge",
+            "Bolt Strike",
+            "Freeze Shock",
+            "Nuzzle",
+            "Stoked Sparksurfer",
+            "Splishy Splash",
+            "Buzzy Buzz"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "sleep",
+        "display_name": "Sleep",
+        "moves": [
+            "sing",
+            "sleep-powder",
+            "hypnosis",
+            "lovely-kiss",
+            "spore",
+            "grass-whistle",
+            "dark-void",
+            "relic-song"
+        ],
+        "display_move": [
+            "Sing",
+            "Sleep Powder",
+            "Hypnosis",
+            "Lovely Kiss",
+            "Spore",
+            "Grass Whistle",
+            "Dark Void",
+            "Relic Song"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "freeze",
+        "display_name": "Freeze",
+        "moves": [
+            "ice-punch",
+            "ice-beam",
+            "blizzard",
+            "powder-snow",
+            "ice-fang",
+            "freeze-dry",
+            "freezing-glare"
+        ],
+        "display_move": [
+            "Ice Punch",
+            "Ice Beam",
+            "Blizzard",
+            "Powder Snow",
+            "Ice Fang",
+            "Freeze Dry",
+            "Freezing Glare"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "burn",
+        "display_name": "Burn",
+        "moves": [
+            "fire-punch",
+            "ember",
+            "flamethrower",
+            "fire-blast",
+            "flame-wheel",
+            "sacred-fire",
+            "heat-wave",
+            "will-o-wisp",
+            "blaze-kick",
+            "flare-blitz",
+            "fire-fang",
+            "lava-plume",
+            "scald",
+            "inferno",
+            "searing-shot",
+            "blue-flare",
+            "ice-burn",
+            "steam-eruption",
+            "sizzly-slide",
+            "pyro-ball",
+            "burning-jealousy",
+            "scorching-sands"
+        ],
+        "display_move": [
+            "Fire Punch",
+            "Ember",
+            "Flamethrower",
+            "Fire Blast",
+            "Flame Wheel",
+            "Sacred Fire",
+            "Heat Wave",
+            "Will O Wisp",
+            "Blaze Kick",
+            "Flare Blitz",
+            "Fire Fang",
+            "Lava Plume",
+            "Scald",
+            "Inferno",
+            "Searing Shot",
+            "Blue Flare",
+            "Ice Burn",
+            "Steam Eruption",
+            "Sizzly Slide",
+            "Pyro Ball",
+            "Burning Jealousy",
+            "Scorching Sands"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "poison",
+        "display_name": "Poison",
+        "moves": [
+            "poison-sting",
+            "twineedle",
+            "poison-powder",
+            "toxic",
+            "smog",
+            "sludge",
+            "poison-gas",
+            "sludge-bomb",
+            "poison-fang",
+            "poison-tail",
+            "poison-jab",
+            "cross-poison",
+            "gunk-shot",
+            "sludge-wave",
+            "toxic-thread",
+            "shell-side-arm"
+        ],
+        "display_move": [
+            "Poison Sting",
+            "Twineedle",
+            "Poison Powder",
+            "Toxic",
+            "Smog",
+            "Sludge",
+            "Poison Gas",
+            "Sludge Bomb",
+            "Poison Fang",
+            "Poison Tail",
+            "Poison Jab",
+            "Cross Poison",
+            "Gunk Shot",
+            "Sludge Wave",
+            "Toxic Thread",
+            "Shell Side Arm"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "confusion",
+        "display_name": "Confusion",
+        "moves": [
+            "supersonic",
+            "psybeam",
+            "confusion",
+            "confuse-ray",
+            "dizzy-punch",
+            "sweet-kiss",
+            "swagger",
+            "dynamic-punch",
+            "flatter",
+            "teeter-dance",
+            "signal-beam",
+            "water-pulse",
+            "rock-climb",
+            "chatter",
+            "hurricane",
+            "strange-steam"
+        ],
+        "display_move": [
+            "Supersonic",
+            "Psybeam",
+            "Confusion",
+            "Confuse Ray",
+            "Dizzy Punch",
+            "Sweet Kiss",
+            "Swagger",
+            "Dynamic Punch",
+            "Flatter",
+            "Teeter Dance",
+            "Signal Beam",
+            "Water Pulse",
+            "Rock Climb",
+            "Chatter",
+            "Hurricane",
+            "Strange Steam"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "infatuation",
+        "display_name": "Infatuation",
+        "moves": [
+            "attract"
+        ],
+        "display_move": [
+            "Attract"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "trap",
+        "display_name": "Trap",
+        "moves": [
+            "bind",
+            "wrap",
+            "fire-spin",
+            "clamp",
+            "whirlpool",
+            "sand-tomb",
+            "magma-storm",
+            "infestation",
+            "snap-trap",
+            "thunder-cage"
+        ],
+        "display_move": [
+            "Bind",
+            "Wrap",
+            "Fire Spin",
+            "Clamp",
+            "Whirlpool",
+            "Sand Tomb",
+            "Magma Storm",
+            "Infestation",
+            "Snap Trap",
+            "Thunder Cage"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "nightmare",
+        "display_name": "Nightmare",
+        "moves": [
+            "nightmare"
+        ],
+        "display_move": [
+            "Nightmare"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "torment",
+        "display_name": "Torment",
+        "moves": [
+            "torment"
+        ],
+        "display_move": [
+            "Torment"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "disable",
+        "display_name": "Disable",
+        "moves": [
+            "disable"
+        ],
+        "display_move": [
+            "Disable"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "yawn",
+        "display_name": "Yawn",
+        "moves": [
+            "yawn"
+        ],
+        "display_move": [
+            "Yawn"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "heal-block",
+        "display_name": "Heal Block",
+        "moves": [
+            "heal-block"
+        ],
+        "display_move": [
+            "Heal Block"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "no-type-immunity",
+        "display_name": "No Type Immunity",
+        "moves": [
+            "foresight",
+            "odor-sleuth",
+            "miracle-eye"
+        ],
+        "display_move": [
+            "Foresight",
+            "Odor Sleuth",
+            "Miracle Eye"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "leech-seed",
+        "display_name": "Leech Seed",
+        "moves": [
+            "leech-seed",
+            "sappy-seed"
+        ],
+        "display_move": [
+            "Leech Seed",
+            "Sappy Seed"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "embargo",
+        "display_name": "Embargo",
+        "moves": [
+            "embargo"
+        ],
+        "display_move": [
+            "Embargo"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "perish-song",
+        "display_name": "Perish Song",
+        "moves": [
+            "perish-song"
+        ],
+        "display_move": [
+            "Perish Song"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "ingrain",
+        "display_name": "Ingrain",
+        "moves": [
+            "ingrain"
+        ],
+        "display_move": [
+            "Ingrain"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "silence",
+        "display_name": "Silence",
+        "moves": [
+            "throat-chop"
+        ],
+        "display_move": [
+            "Throat Chop"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "tar-shot",
+        "display_name": "Tar Shot",
+        "moves": [
+            "tar-shot"
+        ],
+        "display_move": [
+            "Tar Shot"
+        ]
+    }
+]
