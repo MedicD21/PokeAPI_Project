@@ -10,11 +10,11 @@ item_pockets.py**\*\***
 
 moves.py
 
-move_damage_classes.py
+move_damage_classes.py#####
 
-move_categories.py
+move_categories.py####
 
-move_ailments.py
+move_ailments.py#########
 
 move_targets.py
 
