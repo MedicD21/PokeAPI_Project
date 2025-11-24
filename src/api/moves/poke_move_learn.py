@@ -9,6 +9,9 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_FILE = DATA_DIR / "poke_move_learn.json"
 BASE_URL = "https://pokeapi.co/api/v2/move-learn-method/"
 
+
+#theres 11 move learn methods in total
+
 def grab_learn_method():
 
     if OUTPUT_FILE.exists():
@@ -24,16 +27,19 @@ def grab_learn_method():
 
         if data is None:
             continue
-
-
-#######start here 
-        # TODO: map fields from 'data' into a cleaned object
+        
+        descript = next((d['description'] for d in data.get('descriptions', []) if d['language']['name'] == 'en'), None)
+        
+        games = [g['name'].lower() for g in data.get('version_groups', [])]
+        
         existing_dict[learn_id] = {
             "id": learn_id,
             "name": data.get('name', '').lower(),
             "display_name": data.get('name', '').replace('-', ' ').title(),
-            # Add more fields here
-        }
+            "description": descript,
+            "in_games": games,
+            "display_games": [g.replace("-"," ").title() for g in games],
+            }
 
     outlist = sorted(existing_dict.values(), key=lambda x: x['id'])
 
