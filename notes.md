@@ -1,25 +1,3 @@
-## ✅ Remaining Scripts to Build
-
-Item-Related
-
-item_fling_effects.py**\*\***
-
-item_pockets.py**\*\***
-
-## \***\* Moves \*\***
-
-moves.py
-
-move_damage_classes.py#####
-
-move_categories.py####
-
-move_ailments.py#########
-
-move_targets.py
-
-move_learn_methods.py
-
 ## \***\* Types \*\***
 
 types.py
