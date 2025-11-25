@@ -1,0 +1,767 @@
+[
+    {
+        "id": 1,
+        "name": "spicy",
+        "display_name": "Spicy",
+        "berries": [
+            {
+                "name": "rowap",
+                "display_name": "Rowap",
+                "potency": 10
+            },
+            {
+                "name": "leppa",
+                "display_name": "Leppa",
+                "potency": 10
+            },
+            {
+                "name": "oran",
+                "display_name": "Oran",
+                "potency": 10
+            },
+            {
+                "name": "persim",
+                "display_name": "Persim",
+                "potency": 10
+            },
+            {
+                "name": "lum",
+                "display_name": "Lum",
+                "potency": 10
+            },
+            {
+                "name": "razz",
+                "display_name": "Razz",
+                "potency": 10
+            },
+            {
+                "name": "pinap",
+                "display_name": "Pinap",
+                "potency": 10
+            },
+            {
+                "name": "pomeg",
+                "display_name": "Pomeg",
+                "potency": 10
+            },
+            {
+                "name": "qualot",
+                "display_name": "Qualot",
+                "potency": 10
+            },
+            {
+                "name": "hondew",
+                "display_name": "Hondew",
+                "potency": 10
+            },
+            {
+                "name": "nomel",
+                "display_name": "Nomel",
+                "potency": 10
+            },
+            {
+                "name": "belue",
+                "display_name": "Belue",
+                "potency": 10
+            },
+            {
+                "name": "rindo",
+                "display_name": "Rindo",
+                "potency": 10
+            },
+            {
+                "name": "shuca",
+                "display_name": "Shuca",
+                "potency": 10
+            },
+            {
+                "name": "charti",
+                "display_name": "Charti",
+                "potency": 10
+            },
+            {
+                "name": "apicot",
+                "display_name": "Apicot",
+                "potency": 10
+            },
+            {
+                "name": "cheri",
+                "display_name": "Cheri",
+                "potency": 10
+            },
+            {
+                "name": "chople",
+                "display_name": "Chople",
+                "potency": 15
+            },
+            {
+                "name": "figy",
+                "display_name": "Figy",
+                "potency": 15
+            },
+            {
+                "name": "occa",
+                "display_name": "Occa",
+                "potency": 15
+            },
+            {
+                "name": "tamato",
+                "display_name": "Tamato",
+                "potency": 20
+            },
+            {
+                "name": "tanga",
+                "display_name": "Tanga",
+                "potency": 20
+            },
+            {
+                "name": "babiri",
+                "display_name": "Babiri",
+                "potency": 25
+            },
+            {
+                "name": "starf",
+                "display_name": "Starf",
+                "potency": 30
+            },
+            {
+                "name": "liechi",
+                "display_name": "Liechi",
+                "potency": 30
+            },
+            {
+                "name": "spelon",
+                "display_name": "Spelon",
+                "potency": 30
+            },
+            {
+                "name": "petaya",
+                "display_name": "Petaya",
+                "potency": 30
+            },
+            {
+                "name": "lansat",
+                "display_name": "Lansat",
+                "potency": 30
+            },
+            {
+                "name": "enigma",
+                "display_name": "Enigma",
+                "potency": 40
+            }
+        ],
+        "contest_type": "cool",
+        "contest_display_type": "Cool"
+    },
+    {
+        "id": 2,
+        "name": "dry",
+        "display_name": "Dry",
+        "berries": [
+            {
+                "name": "kasib",
+                "display_name": "Kasib",
+                "potency": 10
+            },
+            {
+                "name": "babiri",
+                "display_name": "Babiri",
+                "potency": 10
+            },
+            {
+                "name": "liechi",
+                "display_name": "Liechi",
+                "potency": 10
+            },
+            {
+                "name": "lum",
+                "display_name": "Lum",
+                "potency": 10
+            },
+            {
+                "name": "sitrus",
+                "display_name": "Sitrus",
+                "potency": 10
+            },
+            {
+                "name": "oran",
+                "display_name": "Oran",
+                "potency": 10
+            },
+            {
+                "name": "razz",
+                "display_name": "Razz",
+                "potency": 10
+            },
+            {
+                "name": "bluk",
+                "display_name": "Bluk",
+                "potency": 10
+            },
+            {
+                "name": "kelpsy",
+                "display_name": "Kelpsy",
+                "potency": 10
+            },
+            {
+                "name": "hondew",
+                "display_name": "Hondew",
+                "potency": 10
+            },
+            {
+                "name": "grepa",
+                "display_name": "Grepa",
+                "potency": 10
+            },
+            {
+                "name": "tamato",
+                "display_name": "Tamato",
+                "potency": 10
+            },
+            {
+                "name": "enigma",
+                "display_name": "Enigma",
+                "potency": 10
+            },
+            {
+                "name": "spelon",
+                "display_name": "Spelon",
+                "potency": 10
+            },
+            {
+                "name": "starf",
+                "display_name": "Starf",
+                "potency": 10
+            },
+            {
+                "name": "chesto",
+                "display_name": "Chesto",
+                "potency": 10
+            },
+            {
+                "name": "yache",
+                "display_name": "Yache",
+                "potency": 10
+            },
+            {
+                "name": "persim",
+                "display_name": "Persim",
+                "potency": 10
+            },
+            {
+                "name": "coba",
+                "display_name": "Coba",
+                "potency": 10
+            },
+            {
+                "name": "lansat",
+                "display_name": "Lansat",
+                "potency": 10
+            },
+            {
+                "name": "passho",
+                "display_name": "Passho",
+                "potency": 15
+            },
+            {
+                "name": "wiki",
+                "display_name": "Wiki",
+                "potency": 15
+            },
+            {
+                "name": "kebia",
+                "display_name": "Kebia",
+                "potency": 15
+            },
+            {
+                "name": "charti",
+                "display_name": "Charti",
+                "potency": 20
+            },
+            {
+                "name": "cornn",
+                "display_name": "Cornn",
+                "potency": 20
+            },
+            {
+                "name": "chilan",
+                "display_name": "Chilan",
+                "potency": 25
+            },
+            {
+                "name": "apicot",
+                "display_name": "Apicot",
+                "potency": 30
+            },
+            {
+                "name": "pamtre",
+                "display_name": "Pamtre",
+                "potency": 30
+            },
+            {
+                "name": "ganlon",
+                "display_name": "Ganlon",
+                "potency": 30
+            },
+            {
+                "name": "micle",
+                "display_name": "Micle",
+                "potency": 40
+            }
+        ],
+        "contest_type": "beauty",
+        "contest_display_type": "Beauty"
+    },
+    {
+        "id": 3,
+        "name": "sweet",
+        "display_name": "Sweet",
+        "berries": [
+            {
+                "name": "leppa",
+                "display_name": "Leppa",
+                "potency": 10
+            },
+            {
+                "name": "persim",
+                "display_name": "Persim",
+                "potency": 10
+            },
+            {
+                "name": "lum",
+                "display_name": "Lum",
+                "potency": 10
+            },
+            {
+                "name": "sitrus",
+                "display_name": "Sitrus",
+                "potency": 10
+            },
+            {
+                "name": "micle",
+                "display_name": "Micle",
+                "potency": 10
+            },
+            {
+                "name": "occa",
+                "display_name": "Occa",
+                "potency": 10
+            },
+            {
+                "name": "payapa",
+                "display_name": "Payapa",
+                "potency": 10
+            },
+            {
+                "name": "haban",
+                "display_name": "Haban",
+                "potency": 10
+            },
+            {
+                "name": "chilan",
+                "display_name": "Chilan",
+                "potency": 10
+            },
+            {
+                "name": "ganlon",
+                "display_name": "Ganlon",
+                "potency": 10
+            },
+            {
+                "name": "bluk",
+                "display_name": "Bluk",
+                "potency": 10
+            },
+            {
+                "name": "nanab",
+                "display_name": "Nanab",
+                "potency": 10
+            },
+            {
+                "name": "pomeg",
+                "display_name": "Pomeg",
+                "potency": 10
+            },
+            {
+                "name": "qualot",
+                "display_name": "Qualot",
+                "potency": 10
+            },
+            {
+                "name": "grepa",
+                "display_name": "Grepa",
+                "potency": 10
+            },
+            {
+                "name": "cornn",
+                "display_name": "Cornn",
+                "potency": 10
+            },
+            {
+                "name": "pamtre",
+                "display_name": "Pamtre",
+                "potency": 10
+            },
+            {
+                "name": "pecha",
+                "display_name": "Pecha",
+                "potency": 10
+            },
+            {
+                "name": "mago",
+                "display_name": "Mago",
+                "potency": 15
+            },
+            {
+                "name": "shuca",
+                "display_name": "Shuca",
+                "potency": 15
+            },
+            {
+                "name": "wacan",
+                "display_name": "Wacan",
+                "potency": 15
+            },
+            {
+                "name": "kasib",
+                "display_name": "Kasib",
+                "potency": 20
+            },
+            {
+                "name": "magost",
+                "display_name": "Magost",
+                "potency": 20
+            },
+            {
+                "name": "watmel",
+                "display_name": "Watmel",
+                "potency": 30
+            },
+            {
+                "name": "liechi",
+                "display_name": "Liechi",
+                "potency": 30
+            },
+            {
+                "name": "salac",
+                "display_name": "Salac",
+                "potency": 30
+            },
+            {
+                "name": "lansat",
+                "display_name": "Lansat",
+                "potency": 30
+            },
+            {
+                "name": "starf",
+                "display_name": "Starf",
+                "potency": 30
+            },
+            {
+                "name": "custap",
+                "display_name": "Custap",
+                "potency": 40
+            }
+        ],
+        "contest_type": "cute",
+        "contest_display_type": "Cute"
+    },
+    {
+        "id": 4,
+        "name": "bitter",
+        "display_name": "Bitter",
+        "berries": [
+            {
+                "name": "lansat",
+                "display_name": "Lansat",
+                "potency": 10
+            },
+            {
+                "name": "starf",
+                "display_name": "Starf",
+                "potency": 10
+            },
+            {
+                "name": "custap",
+                "display_name": "Custap",
+                "potency": 10
+            },
+            {
+                "name": "lum",
+                "display_name": "Lum",
+                "potency": 10
+            },
+            {
+                "name": "sitrus",
+                "display_name": "Sitrus",
+                "potency": 10
+            },
+            {
+                "name": "chople",
+                "display_name": "Chople",
+                "potency": 10
+            },
+            {
+                "name": "colbur",
+                "display_name": "Colbur",
+                "potency": 10
+            },
+            {
+                "name": "leppa",
+                "display_name": "Leppa",
+                "potency": 10
+            },
+            {
+                "name": "salac",
+                "display_name": "Salac",
+                "potency": 10
+            },
+            {
+                "name": "oran",
+                "display_name": "Oran",
+                "potency": 10
+            },
+            {
+                "name": "nanab",
+                "display_name": "Nanab",
+                "potency": 10
+            },
+            {
+                "name": "wepear",
+                "display_name": "Wepear",
+                "potency": 10
+            },
+            {
+                "name": "pomeg",
+                "display_name": "Pomeg",
+                "potency": 10
+            },
+            {
+                "name": "kelpsy",
+                "display_name": "Kelpsy",
+                "potency": 10
+            },
+            {
+                "name": "hondew",
+                "display_name": "Hondew",
+                "potency": 10
+            },
+            {
+                "name": "magost",
+                "display_name": "Magost",
+                "potency": 10
+            },
+            {
+                "name": "watmel",
+                "display_name": "Watmel",
+                "potency": 10
+            },
+            {
+                "name": "rawst",
+                "display_name": "Rawst",
+                "potency": 10
+            },
+            {
+                "name": "passho",
+                "display_name": "Passho",
+                "potency": 10
+            },
+            {
+                "name": "aguav",
+                "display_name": "Aguav",
+                "potency": 15
+            },
+            {
+                "name": "coba",
+                "display_name": "Coba",
+                "potency": 15
+            },
+            {
+                "name": "rindo",
+                "display_name": "Rindo",
+                "potency": 15
+            },
+            {
+                "name": "haban",
+                "display_name": "Haban",
+                "potency": 20
+            },
+            {
+                "name": "rabuta",
+                "display_name": "Rabuta",
+                "potency": 20
+            },
+            {
+                "name": "durin",
+                "display_name": "Durin",
+                "potency": 30
+            },
+            {
+                "name": "ganlon",
+                "display_name": "Ganlon",
+                "potency": 30
+            },
+            {
+                "name": "petaya",
+                "display_name": "Petaya",
+                "potency": 30
+            },
+            {
+                "name": "jaboca",
+                "display_name": "Jaboca",
+                "potency": 40
+            }
+        ],
+        "contest_type": "smart",
+        "contest_display_type": "Smart"
+    },
+    {
+        "id": 5,
+        "name": "sour",
+        "display_name": "Sour",
+        "berries": [
+            {
+                "name": "leppa",
+                "display_name": "Leppa",
+                "potency": 10
+            },
+            {
+                "name": "oran",
+                "display_name": "Oran",
+                "potency": 10
+            },
+            {
+                "name": "persim",
+                "display_name": "Persim",
+                "potency": 10
+            },
+            {
+                "name": "sitrus",
+                "display_name": "Sitrus",
+                "potency": 10
+            },
+            {
+                "name": "jaboca",
+                "display_name": "Jaboca",
+                "potency": 10
+            },
+            {
+                "name": "aspear",
+                "display_name": "Aspear",
+                "potency": 10
+            },
+            {
+                "name": "wacan",
+                "display_name": "Wacan",
+                "potency": 10
+            },
+            {
+                "name": "kebia",
+                "display_name": "Kebia",
+                "potency": 10
+            },
+            {
+                "name": "tanga",
+                "display_name": "Tanga",
+                "potency": 10
+            },
+            {
+                "name": "petaya",
+                "display_name": "Petaya",
+                "potency": 10
+            },
+            {
+                "name": "wepear",
+                "display_name": "Wepear",
+                "potency": 10
+            },
+            {
+                "name": "pinap",
+                "display_name": "Pinap",
+                "potency": 10
+            },
+            {
+                "name": "kelpsy",
+                "display_name": "Kelpsy",
+                "potency": 10
+            },
+            {
+                "name": "qualot",
+                "display_name": "Qualot",
+                "potency": 10
+            },
+            {
+                "name": "grepa",
+                "display_name": "Grepa",
+                "potency": 10
+            },
+            {
+                "name": "rabuta",
+                "display_name": "Rabuta",
+                "potency": 10
+            },
+            {
+                "name": "durin",
+                "display_name": "Durin",
+                "potency": 10
+            },
+            {
+                "name": "iapapa",
+                "display_name": "Iapapa",
+                "potency": 15
+            },
+            {
+                "name": "payapa",
+                "display_name": "Payapa",
+                "potency": 15
+            },
+            {
+                "name": "yache",
+                "display_name": "Yache",
+                "potency": 15
+            },
+            {
+                "name": "colbur",
+                "display_name": "Colbur",
+                "potency": 20
+            },
+            {
+                "name": "nomel",
+                "display_name": "Nomel",
+                "potency": 20
+            },
+            {
+                "name": "belue",
+                "display_name": "Belue",
+                "potency": 30
+            },
+            {
+                "name": "salac",
+                "display_name": "Salac",
+                "potency": 30
+            },
+            {
+                "name": "apicot",
+                "display_name": "Apicot",
+                "potency": 30
+            },
+            {
+                "name": "lansat",
+                "display_name": "Lansat",
+                "potency": 30
+            },
+            {
+                "name": "starf",
+                "display_name": "Starf",
+                "potency": 30
+            },
+            {
+                "name": "rowap",
+                "display_name": "Rowap",
+                "potency": 40
+            }
+        ],
+        "contest_type": "tough",
+        "contest_display_type": "Tough"
+    }
+]
