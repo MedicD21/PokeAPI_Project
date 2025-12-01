@@ -10,7 +10,11 @@ SCRIPTS = {
     "machines": "src.api.items.poke_machines",
     "types": "src.api._types.poke_types",
     "item_categories": "src.api.items.poke_item_categories",
-    "item_attributes": "src.api.items.poke_item_attributes"
+    "item_attributes": "src.api.items.poke_item_attributes",
+    "berries": "src.api.items.poke_berries",
+    "encounters": "src.api.pokemon.pokemon_encounter_methods",
+    "encounter-condition": "src.api.pokemon.poke_encounter_condition",
+    "encounter-condition-value": "src.api.pokemon.poke_encounter_condition_value",
 }
 
 def main():

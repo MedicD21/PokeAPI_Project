@@ -3,6 +3,10 @@ import requests
 from requests.exceptions import HTTPError, ConnectionError, Timeout, RequestException
 import time
 import json
+import urllib3
+
+# Disable SSL warnings due to Python 3.14 SSL certificate issues
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 #global constants
 _TIMEOUT = 10
@@ -23,7 +27,8 @@ def validate_url(url): # Validates URL format
 def send_request(url): # Sends GET request to URL with error handling
     
     try:
-        response = requests.get(url, timeout=_TIMEOUT)
+        # Disable SSL verification due to Python 3.14 SSL certificate issues
+        response = requests.get(url, timeout=_TIMEOUT, verify=False)
         return response
     except (HTTPError, ConnectionError, Timeout, RequestException):
         return None

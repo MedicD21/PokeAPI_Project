@@ -1,0 +1,737 @@
+[
+    {
+        "id": 1,
+        "name": "swarm-yes",
+        "display_name": "Swarm Yes",
+        "condition_type": "Swarm",
+        "description": "During a swarm"
+    },
+    {
+        "id": 2,
+        "name": "swarm-no",
+        "display_name": "Swarm No",
+        "condition_type": "Swarm",
+        "description": "Not during a swarm"
+    },
+    {
+        "id": 3,
+        "name": "time-morning",
+        "display_name": "Time Morning",
+        "condition_type": "Time",
+        "description": "In the morning"
+    },
+    {
+        "id": 4,
+        "name": "time-day",
+        "display_name": "Time Day",
+        "condition_type": "Time",
+        "description": "During the day"
+    },
+    {
+        "id": 5,
+        "name": "time-night",
+        "display_name": "Time Night",
+        "condition_type": "Time",
+        "description": "At night"
+    },
+    {
+        "id": 6,
+        "name": "radar-on",
+        "display_name": "Radar On",
+        "condition_type": "Radar",
+        "description": "Using Pok\u00e9Radar"
+    },
+    {
+        "id": 7,
+        "name": "radar-off",
+        "display_name": "Radar Off",
+        "condition_type": "Radar",
+        "description": "Not using Pok\u00e9Radar"
+    },
+    {
+        "id": 8,
+        "name": "slot2-none",
+        "display_name": "Slot2 None",
+        "condition_type": "Slot2",
+        "description": "No game in slot 2"
+    },
+    {
+        "id": 9,
+        "name": "slot2-ruby",
+        "display_name": "Slot2 Ruby",
+        "condition_type": "Slot2",
+        "description": "Ruby in slot 2"
+    },
+    {
+        "id": 10,
+        "name": "slot2-sapphire",
+        "display_name": "Slot2 Sapphire",
+        "condition_type": "Slot2",
+        "description": "Sapphire in slot 2"
+    },
+    {
+        "id": 11,
+        "name": "slot2-emerald",
+        "display_name": "Slot2 Emerald",
+        "condition_type": "Slot2",
+        "description": "Emerald in slot 2"
+    },
+    {
+        "id": 12,
+        "name": "slot2-firered",
+        "display_name": "Slot2 Firered",
+        "condition_type": "Slot2",
+        "description": "FireRed in slot 2"
+    },
+    {
+        "id": 13,
+        "name": "slot2-leafgreen",
+        "display_name": "Slot2 Leafgreen",
+        "condition_type": "Slot2",
+        "description": "LeafGreen in slot 2"
+    },
+    {
+        "id": 14,
+        "name": "radio-off",
+        "display_name": "Radio Off",
+        "condition_type": "Radio",
+        "description": "Radio off"
+    },
+    {
+        "id": 15,
+        "name": "radio-hoenn",
+        "display_name": "Radio Hoenn",
+        "condition_type": "Radio",
+        "description": "Hoenn radio"
+    },
+    {
+        "id": 16,
+        "name": "radio-sinnoh",
+        "display_name": "Radio Sinnoh",
+        "condition_type": "Radio",
+        "description": "Sinnoh radio"
+    },
+    {
+        "id": 17,
+        "name": "season-spring",
+        "display_name": "Season Spring",
+        "condition_type": "Season",
+        "description": "During Spring"
+    },
+    {
+        "id": 18,
+        "name": "season-summer",
+        "display_name": "Season Summer",
+        "condition_type": "Season",
+        "description": "During Summer"
+    },
+    {
+        "id": 19,
+        "name": "season-autumn",
+        "display_name": "Season Autumn",
+        "condition_type": "Season",
+        "description": "During Autumn"
+    },
+    {
+        "id": 20,
+        "name": "season-winter",
+        "display_name": "Season Winter",
+        "condition_type": "Season",
+        "description": "During Winter"
+    },
+    {
+        "id": 21,
+        "name": "starter-bulbasaur",
+        "display_name": "Starter Bulbasaur",
+        "condition_type": "Starter",
+        "description": "Bulbasaur as starter"
+    },
+    {
+        "id": 22,
+        "name": "starter-squirtle",
+        "display_name": "Starter Squirtle",
+        "condition_type": "Starter",
+        "description": "Squirtle as starter"
+    },
+    {
+        "id": 23,
+        "name": "starter-charmander",
+        "display_name": "Starter Charmander",
+        "condition_type": "Starter",
+        "description": "Charmander as starter"
+    },
+    {
+        "id": 24,
+        "name": "starter-chespin",
+        "display_name": "Starter Chespin",
+        "condition_type": "Starter",
+        "description": "Chespin as starter"
+    },
+    {
+        "id": 25,
+        "name": "starter-fennekin",
+        "display_name": "Starter Fennekin",
+        "condition_type": "Starter",
+        "description": "Fennekin as starter"
+    },
+    {
+        "id": 26,
+        "name": "starter-froakie",
+        "display_name": "Starter Froakie",
+        "condition_type": "Starter",
+        "description": "Froakie as starter"
+    },
+    {
+        "id": 27,
+        "name": "tv-option-blue",
+        "display_name": "Tv Option Blue",
+        "condition_type": "Tv Option",
+        "description": "Chose \u2018Blue\u2019 on the TV news report"
+    },
+    {
+        "id": 28,
+        "name": "tv-option-red",
+        "display_name": "Tv Option Red",
+        "condition_type": "Tv Option",
+        "description": "Chose \u2018Red\u2019 on the TV news report"
+    },
+    {
+        "id": 29,
+        "name": "story-progress-awakened-beasts",
+        "display_name": "Story Progress Awakened Beasts",
+        "condition_type": "Story Progress",
+        "description": "Awakened the legendary beasts at Burned Tower"
+    },
+    {
+        "id": 30,
+        "name": "story-progress-beat-galactic-coronet",
+        "display_name": "Story Progress Beat Galactic Coronet",
+        "condition_type": "Story Progress",
+        "description": "Visited Lake Verity after defeating Team Galactic at Mt. Coronet"
+    },
+    {
+        "id": 31,
+        "name": "story-progress-oak-eterna-city",
+        "display_name": "Story Progress Oak Eterna City",
+        "condition_type": "Story Progress",
+        "description": "Talked to Professor Oak at Eterna City"
+    },
+    {
+        "id": 32,
+        "name": "story-progress-vermilion-copycat",
+        "display_name": "Story Progress Vermilion Copycat",
+        "condition_type": "Story Progress",
+        "description": "Visited the Pok\u00e9mon Fan Club with Copycat\u2019s doll"
+    },
+    {
+        "id": 33,
+        "name": "story-progress-met-tornadus-thundurus",
+        "display_name": "Story Progress Met Tornadus Thundurus",
+        "condition_type": "Story Progress",
+        "description": "Met Tornadus or Thundurus in a cutscene"
+    },
+    {
+        "id": 34,
+        "name": "story-progress-beat-elite-four-round-two",
+        "display_name": "Story Progress Beat Elite Four Round Two",
+        "condition_type": "Story Progress",
+        "description": "Beat the Elite 4 for the second time"
+    },
+    {
+        "id": 35,
+        "name": "story-progress-hall-of-fame",
+        "display_name": "Story Progress Hall Of Fame",
+        "condition_type": "Story Progress",
+        "description": "Enter the Hall of Fame"
+    },
+    {
+        "id": 36,
+        "name": "story-progress-none",
+        "display_name": "Story Progress None",
+        "condition_type": "Story Progress",
+        "description": "None"
+    },
+    {
+        "id": 37,
+        "name": "story-progress-national-dex",
+        "display_name": "Story Progress National Dex",
+        "condition_type": "Story Progress",
+        "description": "Acquired National Pok\u00e9dex"
+    },
+    {
+        "id": 38,
+        "name": "other-none",
+        "display_name": "Other None",
+        "condition_type": "Other",
+        "description": "None"
+    },
+    {
+        "id": 39,
+        "name": "other-snorlax-11-beat-league",
+        "display_name": "Other Snorlax 11 Beat League",
+        "condition_type": "Other",
+        "description": "Beat the Pok\u00e9mon league after knocking out Snorlax at Route 11"
+    },
+    {
+        "id": 40,
+        "name": "other-virtual-console",
+        "display_name": "Other Virtual Console",
+        "condition_type": "Other",
+        "description": "Playing on the Virtual Console Release"
+    },
+    {
+        "id": 41,
+        "name": "story-progress-cure-eldritch-nightmares",
+        "display_name": "Story Progress Cure Eldritch Nightmares",
+        "condition_type": "Story Progress",
+        "description": "Cure the nightmares of Eldritch\u2019s Son"
+    },
+    {
+        "id": 42,
+        "name": "other-talk-to-cynthias-grandmother",
+        "display_name": "Other Talk To Cynthias Grandmother",
+        "condition_type": "Other",
+        "description": "Talk to Cynthia\u2019s grandmother"
+    },
+    {
+        "id": 43,
+        "name": "item-none",
+        "display_name": "Item None",
+        "condition_type": "Item",
+        "description": "No item requirement"
+    },
+    {
+        "id": 44,
+        "name": "item-adamant-orb",
+        "display_name": "Item Adamant Orb",
+        "condition_type": "Item",
+        "description": "Have Adamant Orb in bag"
+    },
+    {
+        "id": 45,
+        "name": "item-lustrous-orb",
+        "display_name": "Item Lustrous Orb",
+        "condition_type": "Item",
+        "description": "Have Lustrous Orb in bag"
+    },
+    {
+        "id": 46,
+        "name": "item-helix-fossil",
+        "display_name": "Item Helix Fossil",
+        "condition_type": "Item",
+        "description": "Have Helix Fossil in bag"
+    },
+    {
+        "id": 47,
+        "name": "item-dome-fossil",
+        "display_name": "Item Dome Fossil",
+        "condition_type": "Item",
+        "description": "Have Dome Fossil in bag"
+    },
+    {
+        "id": 48,
+        "name": "item-old-amber",
+        "display_name": "Item Old Amber",
+        "condition_type": "Item",
+        "description": "Have Old Amber in bag"
+    },
+    {
+        "id": 49,
+        "name": "item-root-fossil",
+        "display_name": "Item Root Fossil",
+        "condition_type": "Item",
+        "description": "Have Root Fossil in bag"
+    },
+    {
+        "id": 50,
+        "name": "item-claw-fossil",
+        "display_name": "Item Claw Fossil",
+        "condition_type": "Item",
+        "description": "Have Claw Fossil in bag"
+    },
+    {
+        "id": 51,
+        "name": "story-progress-defeat-jupiter",
+        "display_name": "Story Progress Defeat Jupiter",
+        "condition_type": "Story Progress",
+        "description": "Defeat Jupiter"
+    },
+    {
+        "id": 52,
+        "name": "story-progress-beat-team-galactic-iron-island",
+        "display_name": "Story Progress Beat Team Galactic Iron Island",
+        "condition_type": "Story Progress",
+        "description": "Defeat Team Galactic at Iron Island"
+    },
+    {
+        "id": 53,
+        "name": "other-correct-password",
+        "display_name": "Other Correct Password",
+        "condition_type": "Other",
+        "description": "Input correct password"
+    },
+    {
+        "id": 54,
+        "name": "story-progress-zephyr-badge",
+        "display_name": "Story Progress Zephyr Badge",
+        "condition_type": "Story Progress",
+        "description": "Obtained Zephyr badge"
+    },
+    {
+        "id": 55,
+        "name": "story-progress-beat-red",
+        "display_name": "Story Progress Beat Red",
+        "condition_type": "Story Progress",
+        "description": "Defeat Red"
+    },
+    {
+        "id": 56,
+        "name": "other-received-kanto-starter",
+        "display_name": "Other Received Kanto Starter",
+        "condition_type": "Other",
+        "description": "Received a Kanto Starter"
+    },
+    {
+        "id": 57,
+        "name": "story-progress-receive-tm-from-claire",
+        "display_name": "Story Progress Receive Tm From Claire",
+        "condition_type": "Story Progress",
+        "description": "Received TM59 From Claire"
+    },
+    {
+        "id": 58,
+        "name": "other-regirock-regice-registeel-in-party",
+        "display_name": "Other Regirock Regice Registeel In Party",
+        "condition_type": "Other",
+        "description": "Have Regirock, Regice and Registeel in the party"
+    },
+    {
+        "id": 59,
+        "name": "weekday-sunday",
+        "display_name": "Weekday Sunday",
+        "condition_type": "Weekday",
+        "description": "Sunday"
+    },
+    {
+        "id": 60,
+        "name": "weekday-monday",
+        "display_name": "Weekday Monday",
+        "condition_type": "Weekday",
+        "description": "Monday"
+    },
+    {
+        "id": 61,
+        "name": "weekday-tuesday",
+        "display_name": "Weekday Tuesday",
+        "condition_type": "Weekday",
+        "description": "Tuesday"
+    },
+    {
+        "id": 62,
+        "name": "weekday-wednesday",
+        "display_name": "Weekday Wednesday",
+        "condition_type": "Weekday",
+        "description": "Wednesday"
+    },
+    {
+        "id": 63,
+        "name": "weekday-thursday",
+        "display_name": "Weekday Thursday",
+        "condition_type": "Weekday",
+        "description": "Thursday"
+    },
+    {
+        "id": 64,
+        "name": "weekday-friday",
+        "display_name": "Weekday Friday",
+        "condition_type": "Weekday",
+        "description": "Friday"
+    },
+    {
+        "id": 65,
+        "name": "weekday-saturday",
+        "display_name": "Weekday Saturday",
+        "condition_type": "Weekday",
+        "description": "Saturday"
+    },
+    {
+        "id": 66,
+        "name": "first-party-pokemon-high-friendship",
+        "display_name": "First Party Pokemon High Friendship",
+        "condition_type": "First Party Pokemon",
+        "description": "The first Pok\u00e9mon in the player\u2019s party has a high friendship stat"
+    },
+    {
+        "id": 67,
+        "name": "story-progress-defeat-mars",
+        "display_name": "Story Progress Defeat Mars",
+        "condition_type": "Story Progress",
+        "description": "Beat Mars for the first time"
+    },
+    {
+        "id": 68,
+        "name": "item-odd-keystone",
+        "display_name": "Item Odd Keystone",
+        "condition_type": "Item",
+        "description": "Have Odd Keystone in bag"
+    },
+    {
+        "id": 69,
+        "name": "other-talked-to-32-people-underground",
+        "display_name": "Other Talked To 32 People Underground",
+        "condition_type": "Other",
+        "description": "Has talked to at least 32 people in the underground"
+    },
+    {
+        "id": 70,
+        "name": "story-progress-returned-machine-part",
+        "display_name": "Story Progress Returned Machine Part",
+        "condition_type": "Story Progress",
+        "description": "Returned Machine Part to Power Plant"
+    },
+    {
+        "id": 71,
+        "name": "other-event-arceus-in-party",
+        "display_name": "Other Event Arceus In Party",
+        "condition_type": "Other",
+        "description": "Have an Event Arceus in the party"
+    },
+    {
+        "id": 72,
+        "name": "special-encounter-couldnt-capture-before",
+        "display_name": "Special Encounter Couldnt Capture Before",
+        "condition_type": "Special Encounter",
+        "description": "This special Pok\u00e9mon couldn\u2019t be captured in previous encounters (either fainted or ran from battle)"
+    },
+    {
+        "id": 73,
+        "name": "item-ice-key",
+        "display_name": "Item Ice Key",
+        "condition_type": "Item",
+        "description": "Have Ice Key in bag"
+    },
+    {
+        "id": 74,
+        "name": "item-iron-key",
+        "display_name": "Item Iron Key",
+        "condition_type": "Item",
+        "description": "Have Iron Key in bag"
+    },
+    {
+        "id": 75,
+        "name": "story-progress-juniper-cave-of-being",
+        "display_name": "Story Progress Juniper Cave Of Being",
+        "condition_type": "Story Progress",
+        "description": "Spoke to Professor Juniper in the Cave of Being"
+    },
+    {
+        "id": 76,
+        "name": "item-lunar-wing",
+        "display_name": "Item Lunar Wing",
+        "condition_type": "Item",
+        "description": "Have Lunar Wing in bag"
+    },
+    {
+        "id": 77,
+        "name": "story-progress-quake-badge",
+        "display_name": "Story Progress Quake Badge",
+        "condition_type": "Story Progress",
+        "description": "Obtained Quake Badge"
+    },
+    {
+        "id": 78,
+        "name": "item-light-stone",
+        "display_name": "Item Light Stone",
+        "condition_type": "Item",
+        "description": "Have Light Stone in bag"
+    },
+    {
+        "id": 79,
+        "name": "item-dark-stone",
+        "display_name": "Item Dark Stone",
+        "condition_type": "Item",
+        "description": "Have Dark Stone in bag"
+    },
+    {
+        "id": 80,
+        "name": "other-captured-reshiram-or-zekrom",
+        "display_name": "Other Captured Reshiram Or Zekrom",
+        "condition_type": "Other",
+        "description": "Captured Reshiram or Zekrom previously"
+    },
+    {
+        "id": 81,
+        "name": "defeated-ghetsis",
+        "display_name": "Defeated Ghetsis",
+        "condition_type": "Story Progress",
+        "description": "Defeated Ghetsis"
+    },
+    {
+        "id": 82,
+        "name": "other-found-11-times-roaming",
+        "display_name": "Other Found 11 Times Roaming",
+        "condition_type": "Other",
+        "description": "Has been unsuccesfully battled 11 times before"
+    },
+    {
+        "id": 83,
+        "name": "time-minute-00-to-19",
+        "display_name": "Time Minute 00 To 19",
+        "condition_type": "Time",
+        "description": "The current minute is between 00 and 19"
+    },
+    {
+        "id": 84,
+        "name": "time-minute-20-to-39",
+        "display_name": "Time Minute 20 To 39",
+        "condition_type": "Time",
+        "description": "The current minute is between 20 and 39"
+    },
+    {
+        "id": 85,
+        "name": "time-minute-40-to-59",
+        "display_name": "Time Minute 40 To 59",
+        "condition_type": "Time",
+        "description": "The current minute is between 40 and 59"
+    },
+    {
+        "id": 86,
+        "name": "time-04-00-to-19-59",
+        "display_name": "Time 04 00 To 19 59",
+        "condition_type": "Time",
+        "description": "The current time is between 04:00 and 19:59"
+    },
+    {
+        "id": 87,
+        "name": "time-20-00-to-21-59",
+        "display_name": "Time 20 00 To 21 59",
+        "condition_type": "Time",
+        "description": "The current time is between 20:00 and 21:59"
+    },
+    {
+        "id": 88,
+        "name": "time-21-00-to-03-59",
+        "display_name": "Time 21 00 To 03 59",
+        "condition_type": "Time",
+        "description": "The current time is between 22:00 and 03:59"
+    },
+    {
+        "id": 89,
+        "name": "item-tidal-bell",
+        "display_name": "Item Tidal Bell",
+        "condition_type": "Item",
+        "description": "Have Tidal Bell in bag"
+    },
+    {
+        "id": 90,
+        "name": "item-clear-bell",
+        "display_name": "Item Clear Bell",
+        "condition_type": "Item",
+        "description": "Have Clear Bell in bag"
+    },
+    {
+        "id": 91,
+        "name": "story-progress-defeated-groudon-or-kyogre",
+        "display_name": "Story Progress Defeated Groudon Or Kyogre",
+        "condition_type": "Story Progress",
+        "description": "Defeated or captured Groudon or Kyogre"
+    },
+    {
+        "id": 92,
+        "name": "other-uxie-mesprit-azelf-in-party",
+        "display_name": "Other Uxie Mesprit Azelf In Party",
+        "condition_type": "Other",
+        "description": "Have Uxie, Mesprit, and Azelf in the party"
+    },
+    {
+        "id": 93,
+        "name": "other-nicknamed-cold-item-regice-regirock-registeel3",
+        "display_name": "Other Nicknamed Cold Item Regice Regirock Registeel3",
+        "condition_type": "Other",
+        "description": "After capturing the three regis in the game, have a nicknamed Regice holding a coldbased item, plus Regirock and Registeel in the party"
+    },
+    {
+        "id": 94,
+        "name": "other-dialga-or-palkia-in-party",
+        "display_name": "Other Dialga Or Palkia In Party",
+        "condition_type": "Other",
+        "description": "Have Dialga or Palkia in the party"
+    },
+    {
+        "id": 95,
+        "name": "other-castform-in-party",
+        "display_name": "Other Castform In Party",
+        "condition_type": "Other",
+        "description": "Have Castform in party"
+    },
+    {
+        "id": 96,
+        "name": "other-level-100-pokemon-in-party",
+        "display_name": "Other Level 100 Pokemon In Party",
+        "condition_type": "Other",
+        "description": "Have a Level 100 Pok\u00e9mon in party"
+    },
+    {
+        "id": 97,
+        "name": "other-tornadus-thundurus-in-party",
+        "display_name": "Other Tornadus Thundurus In Party",
+        "condition_type": "Other",
+        "description": "Have Tornadus and Thundurus in party"
+    },
+    {
+        "id": 98,
+        "name": "other-reshiram-zekrom-in-party",
+        "display_name": "Other Reshiram Zekrom In Party",
+        "condition_type": "Other",
+        "description": "Have Reshiram and Zekrom in party"
+    },
+    {
+        "id": 99,
+        "name": "other-captured-all-ultra-beasts",
+        "display_name": "Other Captured All Ultra Beasts",
+        "condition_type": "Other",
+        "description": "Captured all Ultra Beasts"
+    },
+    {
+        "id": 100,
+        "name": "story-progress-finished-looker-sidequest",
+        "display_name": "Story Progress Finished Looker Sidequest",
+        "condition_type": "Story Progress",
+        "description": "Finished Looker\u2019s Sidequest"
+    },
+    {
+        "id": 101,
+        "name": "story-progress-beat-olivias-trial",
+        "display_name": "Story Progress Beat Olivias Trial",
+        "condition_type": "Story Progress",
+        "description": "After finishing Olivia\u2019s trial"
+    },
+    {
+        "id": 102,
+        "name": "other-raikou-entei-in-party",
+        "display_name": "Other Raikou Entei In Party",
+        "condition_type": "Other",
+        "description": "Have Raikou and Entei in party"
+    },
+    {
+        "id": 103,
+        "name": "other-groudon-kyogre-in-party",
+        "display_name": "Other Groudon Kyogre In Party",
+        "condition_type": "Other",
+        "description": "Have Groudon and Kyogre in party"
+    },
+    {
+        "id": 104,
+        "name": "other-dialga-palkia-in-party",
+        "display_name": "Other Dialga Palkia In Party",
+        "condition_type": "Other",
+        "description": "Have Dialga and Palkia in party"
+    },
+    {
+        "id": 105,
+        "name": "other-scan-qr-code",
+        "display_name": "Other Scan Qr Code",
+        "condition_type": "Other",
+        "description": "Scan a specific QR Code"
+    }
+]

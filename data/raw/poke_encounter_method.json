@@ -1,0 +1,261 @@
+[
+    {
+        "id": 1,
+        "name": "walk",
+        "display_name": "Walk",
+        "description": "Walking in tall grass or a cave",
+        "order": 1
+    },
+    {
+        "id": 2,
+        "name": "old-rod",
+        "display_name": "Old Rod",
+        "description": "Fishing with an Old Rod",
+        "order": 10
+    },
+    {
+        "id": 3,
+        "name": "good-rod",
+        "display_name": "Good Rod",
+        "description": "Fishing with a Good Rod",
+        "order": 11
+    },
+    {
+        "id": 4,
+        "name": "super-rod",
+        "display_name": "Super Rod",
+        "description": "Fishing with a Super Rod",
+        "order": 12
+    },
+    {
+        "id": 5,
+        "name": "surf",
+        "display_name": "Surf",
+        "description": "Surfing",
+        "order": 14
+    },
+    {
+        "id": 6,
+        "name": "rock-smash",
+        "display_name": "Rock Smash",
+        "description": "Smashing rocks",
+        "order": 16
+    },
+    {
+        "id": 7,
+        "name": "headbutt",
+        "display_name": "Headbutt",
+        "description": "Headbutting trees",
+        "order": 17
+    },
+    {
+        "id": 8,
+        "name": "dark-grass",
+        "display_name": "Dark Grass",
+        "description": "Walking in dark grass",
+        "order": 5
+    },
+    {
+        "id": 9,
+        "name": "grass-spots",
+        "display_name": "Grass Spots",
+        "description": "Walking in rustling grass",
+        "order": 2
+    },
+    {
+        "id": 10,
+        "name": "cave-spots",
+        "display_name": "Cave Spots",
+        "description": "Walking in dust clouds",
+        "order": 3
+    },
+    {
+        "id": 11,
+        "name": "bridge-spots",
+        "display_name": "Bridge Spots",
+        "description": "Walking in bridge shadows",
+        "order": 4
+    },
+    {
+        "id": 12,
+        "name": "super-rod-spots",
+        "display_name": "Super Rod Spots",
+        "description": "Fishing in dark spots",
+        "order": 13
+    },
+    {
+        "id": 13,
+        "name": "surf-spots",
+        "display_name": "Surf Spots",
+        "description": "Surfing in dark spots",
+        "order": 15
+    },
+    {
+        "id": 14,
+        "name": "yellow-flowers",
+        "display_name": "Yellow Flowers",
+        "description": "Walking in yellow flowers",
+        "order": 6
+    },
+    {
+        "id": 15,
+        "name": "purple-flowers",
+        "display_name": "Purple Flowers",
+        "description": "Walking in purple flowers",
+        "order": 7
+    },
+    {
+        "id": 16,
+        "name": "red-flowers",
+        "display_name": "Red Flowers",
+        "description": "Walking in red flowers",
+        "order": 8
+    },
+    {
+        "id": 17,
+        "name": "rough-terrain",
+        "display_name": "Rough Terrain",
+        "description": "Walking on rough terrain",
+        "order": 9
+    },
+    {
+        "id": 18,
+        "name": "gift",
+        "display_name": "Gift",
+        "description": "Receive as a gift",
+        "order": 18
+    },
+    {
+        "id": 19,
+        "name": "gift-egg",
+        "display_name": "Gift Egg",
+        "description": "Receive egg as a gift",
+        "order": 19
+    },
+    {
+        "id": 20,
+        "name": "only-one",
+        "display_name": "Only One",
+        "description": "Static encounter, only one chance",
+        "order": 20
+    },
+    {
+        "id": 21,
+        "name": "pokeflute",
+        "display_name": "Pokeflute",
+        "description": "Playing Pok\u00e9flute",
+        "order": 21
+    },
+    {
+        "id": 22,
+        "name": "headbutt-low",
+        "display_name": "Headbutt Low",
+        "description": "Headbutting a low encounter rate tree",
+        "order": 22
+    },
+    {
+        "id": 23,
+        "name": "headbutt-normal",
+        "display_name": "Headbutt Normal",
+        "description": "Headbutting a normal encounter rate tree",
+        "order": 23
+    },
+    {
+        "id": 24,
+        "name": "headbutt-high",
+        "display_name": "Headbutt High",
+        "description": "Headbutting a high encounter rate tree",
+        "order": 24
+    },
+    {
+        "id": 25,
+        "name": "squirt-bottle",
+        "display_name": "Squirt Bottle",
+        "description": "Using the Squirt Bottle on a Sudowoodo",
+        "order": 25
+    },
+    {
+        "id": 26,
+        "name": "wailmer-pail",
+        "display_name": "Wailmer Pail",
+        "description": "Using the Wailmer Pail on a Sudowoodo",
+        "order": 26
+    },
+    {
+        "id": 27,
+        "name": "seaweed",
+        "display_name": "Seaweed",
+        "description": "Diving on seaweed",
+        "order": 27
+    },
+    {
+        "id": 28,
+        "name": "roaming-grass",
+        "display_name": "Roaming Grass",
+        "description": "On any overworld patch of grass",
+        "order": 28
+    },
+    {
+        "id": 29,
+        "name": "roaming-water",
+        "display_name": "Roaming Water",
+        "description": "On any overworld water tile",
+        "order": 29
+    },
+    {
+        "id": 30,
+        "name": "devon-scope",
+        "display_name": "Devon Scope",
+        "description": "Using Devon Scope",
+        "order": 30
+    },
+    {
+        "id": 31,
+        "name": "feebas-tile-fishing",
+        "display_name": "Feebas Tile Fishing",
+        "description": "Fishing in a Feebas Tile",
+        "order": 31
+    },
+    {
+        "id": 32,
+        "name": "island-scan",
+        "display_name": "Island Scan",
+        "description": "",
+        "order": 32
+    },
+    {
+        "id": 33,
+        "name": "sos-encounter",
+        "display_name": "Sos Encounter",
+        "description": "",
+        "order": 33
+    },
+    {
+        "id": 34,
+        "name": "bubbling-spots",
+        "display_name": "Bubbling Spots",
+        "description": "",
+        "order": 34
+    },
+    {
+        "id": 35,
+        "name": "berry-piles",
+        "display_name": "Berry Piles",
+        "description": "",
+        "order": 35
+    },
+    {
+        "id": 36,
+        "name": "npc-trade",
+        "display_name": "Npc Trade",
+        "description": "",
+        "order": 36
+    },
+    {
+        "id": 37,
+        "name": "sos-from-bubbling-spot",
+        "display_name": "Sos From Bubbling Spot",
+        "description": "",
+        "order": 37
+    }
+]

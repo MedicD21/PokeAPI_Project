@@ -1,6 +1,6 @@
 ## \***\* Types \*\***
 
-types.py
+types.py###############
 
 ## \***\* Pokémon Species & Pokémon \*\***
 

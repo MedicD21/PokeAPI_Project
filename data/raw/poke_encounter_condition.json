@@ -1,0 +1,219 @@
+[
+    {
+        "id": 1,
+        "name": "swarm",
+        "display_name": "Swarm",
+        "description": "Swarm",
+        "values": [
+            "Swarm Yes",
+            "Swarm No"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "time",
+        "display_name": "Time",
+        "description": "Time Of Day",
+        "values": [
+            "Time Morning",
+            "Time Day",
+            "Time Night",
+            "Time Minute 00 To 19",
+            "Time Minute 20 To 39",
+            "Time Minute 40 To 59",
+            "Time 04 00 To 19 59",
+            "Time 20 00 To 21 59",
+            "Time 21 00 To 03 59"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "radar",
+        "display_name": "Radar",
+        "description": "Pokeradar",
+        "values": [
+            "Radar On",
+            "Radar Off"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "slot2",
+        "display_name": "Slot2",
+        "description": "Gen 3 Game In Slot 2",
+        "values": [
+            "Slot2 None",
+            "Slot2 Ruby",
+            "Slot2 Sapphire",
+            "Slot2 Emerald",
+            "Slot2 Firered",
+            "Slot2 Leafgreen"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "radio",
+        "display_name": "Radio",
+        "description": "Radio",
+        "values": [
+            "Radio Off",
+            "Radio Hoenn",
+            "Radio Sinnoh"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "season",
+        "display_name": "Season",
+        "description": "Season",
+        "values": [
+            "Season Spring",
+            "Season Summer",
+            "Season Autumn",
+            "Season Winter"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "starter",
+        "display_name": "Starter",
+        "description": "Chosen Starter",
+        "values": [
+            "Starter Bulbasaur",
+            "Starter Squirtle",
+            "Starter Charmander",
+            "Starter Chespin",
+            "Starter Fennekin",
+            "Starter Froakie"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "tv-option",
+        "display_name": "Tv Option",
+        "description": "Chosen Dialogue At The News Report",
+        "values": [
+            "Tv Option Blue",
+            "Tv Option Red"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "story-progress",
+        "display_name": "Story Progress",
+        "description": "Story Progress",
+        "values": [
+            "Story Progress Awakened Beasts",
+            "Story Progress Beat Galactic Coronet",
+            "Story Progress Oak Eterna City",
+            "Story Progress Vermilion Copycat",
+            "Story Progress Met Tornadus Thundurus",
+            "Story Progress Beat Elite Four Round Two",
+            "Story Progress Hall Of Fame",
+            "Story Progress None",
+            "Story Progress National Dex",
+            "Story Progress Cure Eldritch Nightmares",
+            "Story Progress Defeat Jupiter",
+            "Story Progress Beat Team Galactic Iron Island",
+            "Story Progress Zephyr Badge",
+            "Story Progress Beat Red",
+            "Story Progress Receive Tm From Claire",
+            "Story Progress Defeat Mars",
+            "Story Progress Returned Machine Part",
+            "Story Progress Juniper Cave Of Being",
+            "Story Progress Quake Badge",
+            "Defeated Ghetsis",
+            "Story Progress Defeated Groudon Or Kyogre",
+            "Story Progress Finished Looker Sidequest",
+            "Story Progress Beat Olivias Trial"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "other",
+        "display_name": "Other",
+        "description": "Miscellaneous",
+        "values": [
+            "Other None",
+            "Other Snorlax 11 Beat League",
+            "Other Virtual Console",
+            "Other Talk To Cynthias Grandmother",
+            "Other Correct Password",
+            "Other Received Kanto Starter",
+            "Other Regirock Regice Registeel In Party",
+            "Other Talked To 32 People Underground",
+            "Other Event Arceus In Party",
+            "Other Captured Reshiram Or Zekrom",
+            "Other Found 11 Times Roaming",
+            "Other Uxie Mesprit Azelf In Party",
+            "Other Nicknamed Cold Item Regice Regirock Registeel3",
+            "Other Dialga Or Palkia In Party",
+            "Other Castform In Party",
+            "Other Level 100 Pokemon In Party",
+            "Other Tornadus Thundurus In Party",
+            "Other Reshiram Zekrom In Party",
+            "Other Captured All Ultra Beasts",
+            "Other Raikou Entei In Party",
+            "Other Groudon Kyogre In Party",
+            "Other Dialga Palkia In Party",
+            "Other Scan Qr Code"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "item",
+        "display_name": "Item",
+        "description": "",
+        "values": [
+            "Item None",
+            "Item Adamant Orb",
+            "Item Lustrous Orb",
+            "Item Helix Fossil",
+            "Item Dome Fossil",
+            "Item Old Amber",
+            "Item Root Fossil",
+            "Item Claw Fossil",
+            "Item Odd Keystone",
+            "Item Ice Key",
+            "Item Iron Key",
+            "Item Lunar Wing",
+            "Item Light Stone",
+            "Item Dark Stone",
+            "Item Tidal Bell",
+            "Item Clear Bell"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "weekday",
+        "display_name": "Weekday",
+        "description": "",
+        "values": [
+            "Weekday Sunday",
+            "Weekday Monday",
+            "Weekday Tuesday",
+            "Weekday Wednesday",
+            "Weekday Thursday",
+            "Weekday Friday",
+            "Weekday Saturday"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "first-party-pokemon",
+        "display_name": "First Party Pokemon",
+        "description": "",
+        "values": [
+            "First Party Pokemon High Friendship"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "special-encounter",
+        "display_name": "Special Encounter",
+        "description": "",
+        "values": [
+            "Special Encounter Couldnt Capture Before"
+        ]
+    }
+]
