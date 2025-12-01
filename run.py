@@ -15,6 +15,8 @@ SCRIPTS = {
     "encounters": "src.api.pokemon.pokemon_encounter_methods",
     "encounter-condition": "src.api.pokemon.poke_encounter_condition",
     "encounter-condition-value": "src.api.pokemon.poke_encounter_condition_value",
+    "evo-chain": "src.api.pokemon.poke_evo_chain",
+    "evo-trigger": "src.api.pokemon.poke_evo_triggers"
 }
 
 def main():
